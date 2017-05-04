@@ -49,7 +49,7 @@
    <?php
 					error_reporting('0');
 					//include("db_conf.php");
-					$con=mysqli_connect("127.0.0.1:56686","root","s12s21s34s43","ethics_system");
+					$con=mysqli_connect("127.0.0.1:56686","root","","ethics_system");
 // Check connection
 if (mysqli_connect_errno())
   {
