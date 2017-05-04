@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- your webpage info goes here -->
+
+    <title>Ethics Approval System</title>
+
+	<meta name="author" content="Najah" />
+	<meta name="description" content="" />
+
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+<body>
+
+<!-- webpage content goes here in the body -->
+
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Ethics Approval System</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="Logout.php">Logout</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Login</h2>
+      
+        <form action="CreateExperiment.php">
+
+    <input type="text" id="name" name="name" placeholder="Experiment Name">
+	<label for="brief">In no more than 5000 characters, give a non-technical summary of the Experiment</label>
+    <br/>
+    <br/>
+    <textarea  id="desc" name="desc"rows="10" cols="50" maxlength="5000" placeholder= "Enter test here..."> </textarea>
+
+    <input type="text" id="student1" name="student1" placeholder="Student 1 ID">
+
+    <input type="text" id="student2" name="student2" placeholder="Student 2 ID">
+
+    <input type="text" id="student3" name="student3" placeholder="Student 3 ID">
+
+    <input type="text" id="student4" name="student4" placeholder="Student 4 ID">
+
+    <input type="text" id="student5" name="student5" placeholder="Student 5 ID">
+
+    <input type="submit" value="Submit">
+  </form>
+  
+		</div>
+		<div id="footer">
+			<p>
+				Webpage made by <a href="/" target="_blank">Najah</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
