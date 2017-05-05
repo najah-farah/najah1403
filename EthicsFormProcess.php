@@ -38,7 +38,7 @@
    <?php
 					error_reporting('0');
 					//include("db_conf.php");
-					$con=mysqli_connect("127.0.0.1","root","","ethics_system");
+					$con=mysqli_connect("127.0.0.1:55994","root","","ethics_system");
 // Check connection
 if (mysqli_connect_errno())
   {

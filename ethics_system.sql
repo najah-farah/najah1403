@@ -1,4 +1,5 @@
 
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -76,9 +77,9 @@ CREATE TABLE `ethicsform` (
 --
 
 INSERT INTO `ethicsform` (`name`, `supervisor`, `school`, `studentno`, `program`, `title`, `sdate`, `duration`, `nhs`, `human`, `des`, `fileupload`) VALUES
-('Anaa', 'djdjkd', 'akjasjk', 'Anaa', 'ddsjdsj', '1', '0000-00-00', 12, 0, 0, ' dkjds', 0x506172617068726173696e67322e646f6378),
-('Anaa', 'asjajas', 'sda', 'Anaa', 'dajad', '1', '0000-00-00', 12, 0, 0, ' dsjkd', 0x506172617068726173696e672e646f6378),
-('Anaa', 'asdjas', 'asjsajas', 'Anaa', 'sajsajsa', '1', '0000-00-00', 13, 0, 0, ' jsajsaj', 0x506172617068726173696e672e646f6378);
+('najah', 'mike', 'computer', '123', 'IT', '1', '0000-00-00', 12, 0, 0, ' dkjds', 0x506172617068726173696e67322e646f6378),
+('farah', 'daved', 'aberdeen', '125', 'art', '1', '0000-00-00', 12, 0, 0, ' dsjkd', 0x506172617068726173696e672e646f6378),
+('ali', 'peter', 'sunnybank', '987', 'engneering', '1', '0000-00-00', 13, 0, 0, ' jsajsaj', 0x506172617068726173696e672e646f6378);
 
 -- --------------------------------------------------------
 
@@ -118,7 +119,7 @@ CREATE TABLE `experiment` (
 --
 
 INSERT INTO `experiment` (`experimentid`, `name`, `description`, `student1`, `student2`, `student3`, `student4`, `student5`, `teacher`, `sb1`, `sb2`, `sb3`, `sb4`, `sb5`, `as1`, `as2`, `as3`, `as4`, `as5`, `ap1`, `ap2`, `ap3`, `ap4`, `ap5`) VALUES
-(1, 'Fitness', ' interview and survey', 'Anaa', '', '', '', '', 'Jane', 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
+(1, 'Fitness', ' interview and survey', 'ali', '', '', '', '', 'Jane', 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -138,7 +139,7 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`username`, `firstname`, `lastname`, `password`) VALUES
-('Anaa', 'Anaa', 'Ahamad', 'anaa123');
+('ali', 'saad', 'Ahamad', 'ali123');
 
 -- --------------------------------------------------------
 

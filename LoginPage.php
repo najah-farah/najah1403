@@ -39,19 +39,33 @@
                 //include("db_conf.php");
                 $con= mysqli_connect("127.0.0.1:55994","root","","ethics_system");
 
-                // $con= mysqli_connect("127.0.0.1","root","","ethics_system","52967");
 
-                //$con=mysqli_connect("127.0.0.1","root","","ethics_system","52967");
                 // Check connection
                 if (mysqli_connect_errno())
                 {
                     //echo "Failed to connect to MySQL: " . mysqli_connect_error();
                 }session_start();
+               // $accesslevel = $_COOKIE [ 'access_level_cookie'];
+              //  displayAccessLevelInformation($accesslevel);
+              //  function displayAccessLevelInformation($accesslevel)
+              //  {
+                //    if ($accesslevel == "admin123") {
+                    //    echo "<p style = \"background-color:lightgreen\</p>";
+                  //  } elseif ($accesslevel == "root") {
+                  //      echo "<p style = \"background-color:lightgreen\</p>";
+                //    }
+               // }
+
+
                 //header('Cache-control: private');
 
                 $a=$_GET["uname"];
                 $b=$_GET["password"];
 
+               // if($username == "username" && $password == "password")
+               // {
+               //     setcookie('access_level_cookie','root');
+              //  }
                 //$resultadmin = mysqli_query ($con,"select * from admin where adminusername='$a' and adminpassword='$b'");
                 $resultadmin = mysqli_query ($con,"select * from admin where adminusername='$a' and adminpassword='$b'");
                 $resultstudent = mysqli_query ($con,"select * from student where username='$a' and password='$b'");
